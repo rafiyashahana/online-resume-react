@@ -35,7 +35,10 @@ const Left = () => {
           className="social"
           onClick={(e) => {
             e.preventDefault();
-            window.open("www.linkedin.com/in/rafiya-shahana", "_blank");
+            window.open(
+              "https://www.linkedin.com/in/rafiya-shahana/",
+              "_blank"
+            );
           }}
         />
       </div>
