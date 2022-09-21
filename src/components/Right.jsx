@@ -6,7 +6,7 @@ const Right = () => {
       <div className="right-inner">
         <h4>Intro</h4>
         <div className="content">
-          Passionate Front End developer with 2+ years of experience, who is
+          Passionate Front End developer with 4+ years of experience, who is
           comfortable working with JavaScript, HTML/CSS to deliver exceptional
           customer experiences. Aspiring to combine broad background with strong
           technical skills to excel as a Front-End Developer.
