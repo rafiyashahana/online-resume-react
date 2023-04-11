@@ -6,10 +6,10 @@ const Right = () => {
       <div className="right-inner">
         <h4>Intro</h4>
         <div className="content">
-          Passionate Front End developer with 2+ years of experience, who is
-          comfortable working with JavaScript, HTML/CSS to deliver exceptional
-          customer experiences. Aspiring to combine broad background with strong
-          technical skills to excel as a Front-End Developer.
+          Passionate Front End developer with 3+ years of experience in creating
+          SPA using React(JS/TS), Redux, HTML and CSS. Able to effectively self
+          manage during independent projects, as well as collaborate in a team
+          setting.
         </div>
 
         <h4>Skills</h4>
@@ -18,16 +18,19 @@ const Right = () => {
           <div className="skill-category">
             <strong>Languages: &nbsp;</strong>
             <span>
-              JavaScript (ES6), HTML5, CSS3, Typescript, SASS, SQL Basics
+              HTML5, CSS3, JavaScript (ES6), Typescript, SASS, SQL Basics
             </span>
           </div>
           <div className="skill-category">
             <strong>Libraries &amp; Frameworks:&nbsp;</strong>
-            <span>Bootstrap, React, StoryBook</span>
+            <span> ReactJs, Redux, Redux-Thunk, StoryBook</span>
           </div>
           <div className="skill-category">
             <strong>Tools: &nbsp;</strong>
-            <span>Git &amp; Github, Firebase, RestAPI, Wordpress/CMS</span>
+            <span>
+              Git &amp; Github, Jest/Enzyme Testing, Firebase, RestAPI,
+              Wordpress
+            </span>
           </div>
         </div>
 
@@ -35,33 +38,38 @@ const Right = () => {
           <h4>Experience</h4>
           <div className="content">
             <div className="exp-category">
-              <strong>React Developer, ALGOTRADY</strong>
+              <strong>React Developer, ALGOTRADY.IO</strong>
             </div>
             <h5 className="exp">December 2021 - Present</h5>
 
             <ul>
               <li class="list-items">
-                Worked with a team of frontend developers to create an
-                algorithmic trading application using React.
+                Creation of components using Storybook in order to make the
+                project consistent and easy to maintain.
               </li>
               <li class="list-items">
-                Translated designs &amp; wireframes into high-quality code and
-                wrote application interface code via Typescript following
-                React.js workflows.
+                Contributed in implementing the frontend for major features of
+                the app including algorithmic trading, strategy development and
+                backtesting.
               </li>
               <li class="list-items">
-                Developed the latest user-facing features using React.js and
-                built reusable components that were easily maintainable,
-                reducing the time spent on future development by 40%.
+                Contributed to web based online portal codebase and UI Design
+                system using CSS, SASS and Styled components.
               </li>
               <li class="list-items">
-                Collaborated closely with other developers on projects that
-                require multiple people to complete tasks.
+                Worked on Frontend full stack set of JS technologies using ES6,
+                React, React Router, Redux, Thunk, Typescript in Agile/Scrum
+                based project.
               </li>
               <li class="list-items">
-                Managed brand consistency throughout the design and maintained &
-                improved the company’s web application by adding more features
-                and functionality.
+                I was mainly responsible for creating and maintaining the
+                reusable components, implementing new features and React
+                routers.
+              </li>
+              <li class="list-items">
+                Worked closely with the design team, product management, and
+                development teams to create elegant, usable, responsive and
+                interactive interfaces across multiple devices.
               </li>
             </ul>
 
@@ -72,41 +80,41 @@ const Right = () => {
             </div>
             <ul>
               <li class="list-items">
-                Designed dynamic and browser compatible pages using HTML5, CSS3,
-                Bootstrap, and Javascript.
+                Designed, developed, and delivered more than a dozen successful
+                website development and design projects for clients, normally
+                using HTML, CSS/SASS, React, and Firebase if needed.
               </li>
               <li class="list-items">
-                Built single page applications (SPA), responsive web design, UI
-                using HTML5 grid layouts, CSS3 media queries.
+                Coded HTML, CSS, and JavaScript for multiple businesses (form
+                submission validations, splash pages, responsive redesigns,
+                etc).
               </li>
               <li class="list-items">
-                Designed frontend within object-oriented Javascript frameworks
-                like React.
-              </li>
-              <li class="list-items">
-                Managed to simultaneously work on multiple projects without
-                deviation.
+                Designed web applications according to client briefs and
+                modified designs to meet changes in client specifications.
               </li>
             </ul>
             <div className="exp-category">
-              <strong>Web/ Wordpress Developer, FREELANCE</strong>
+              <strong>Wordpress Developer, FREELANCE</strong>
 
               <h5>December 2015 - September 2019</h5>
             </div>
             <ul>
               <li class="list-items">
-                Built static portfolio websites for different clients.
+                Developed dozens of custom websites for clients from small
+                businesses and online stores.
               </li>
               <li class="list-items">
-                Determined the structure and design of web pages based on user
-                requirements and balanced functional &amp; aesthetic designs.
+                Experience in the creation of, and issues surrounding,
+                responsive websites, mobile-first design and device-agnostic
+                development.
               </li>
               <li class="list-items">
-                Built a small scale inventory management application for clients
-                that automates the billing routines and financial transactions.
+                Extensive experience with WordPress theme, plugins and widgets.
               </li>
               <li class="list-items">
-                Provided continued maintenance and fixing bugs.
+                Well versed in installing and configuring WordPress multisite
+                and delivered well-made projects on time.
               </li>
             </ul>
             <div className="exp-category">
@@ -115,14 +123,12 @@ const Right = () => {
             </div>
             <ul>
               <li class="list-items">
-                Assisted a research that deals with the application of parallel
-                computing technology and OpenMP to implement the classification
-                of algorithms based on cloud computing environments.
+                Assisted a research on the parallel implementation of
+                classification algorithms based on cloud computing environment.
               </li>
               <li class="list-items">
-                Identified that all the algorithms cannot be classified using
-                the currently existing patterns and created new set of access
-                patterns.
+                Built a HPC based algorithmic species extraction tool for
+                automatic parallelization of program code.
               </li>
               <li class="list-items">
                 Built a HPC based algorithmic species extraction tool for
@@ -157,8 +163,11 @@ const Right = () => {
             <p>September 2022</p>
           </div>
           <div className="skill-category">
-            <strong> Complete Reactjs developer bootcamp, udemy </strong>
-            <p>September 2022</p>
+            <strong>
+              {" "}
+              Complete React Developer in 2023 by ZTM academy, Udemy{" "}
+            </strong>
+            <p>February 2023</p>
           </div>
         </div>
         <h4>PUBLICATIONS</h4>
