@@ -130,10 +130,7 @@ const Right = () => {
                 Built a HPC based algorithmic species extraction tool for
                 automatic parallelization of program code.
               </li>
-              <li class="list-items">
-                Built a HPC based algorithmic species extraction tool for
-                automatic parallelization of program code.
-              </li>
+
               <li class="list-items">
                 Evaluated the algorithmic species and validated the extended
                 ADarwin by testing the tool against the benchmark suit HPCC.
@@ -159,15 +156,13 @@ const Right = () => {
         <h4>CERTIFICATIONS</h4>
         <div className="content">
           <div className="skill-category">
-            <strong> Interactivity with javascript, Coursera</strong>
-            <p>September 2022</p>
-          </div>
-          <div className="skill-category">
-            <strong>
-              {" "}
-              Complete React Developer in 2023 by ZTM academy, Udemy{" "}
-            </strong>
-            <p>February 2023</p>
+            <a href="https://www.udemy.com/certificate/UC-d8409787-b10c-47b6-af6f-e320e550c81b/">
+              <strong>
+                {" "}
+                Complete React Developer in 2023 by ZTM academy, Udemy{" "}
+              </strong>
+            </a>
+            <p>April 2023</p>
           </div>
         </div>
         <h4>PUBLICATIONS</h4>
