@@ -6,10 +6,9 @@ const Right = () => {
       <div className="right-inner">
         <h4>Intro</h4>
         <div className="content">
-          Passionate Front End developer with 3+ years of experience in creating
-          SPA using React(JS/TS), Redux, HTML and CSS. Able to effectively self
-          manage during independent projects, as well as collaborate in a team
-          setting.
+          Passionate Front End developer with 4+ years of experience in creating
+          SPA using React(JS/TS), Redux, HTML and CSS. Proficient in
+          collaborative teamwork, version control, and performance optimization.
         </div>
 
         <h4>Skills</h4>
@@ -38,85 +37,83 @@ const Right = () => {
           <h4>Experience</h4>
           <div className="content">
             <div className="exp-category">
-              <strong>React Developer, ALGOTRADY.IO</strong>
+              <strong>Software Engineer (FrontEnd), NocoAI </strong>
+
+              <h5>March 2022 - Present</h5>
             </div>
-            <h5 className="exp">December 2021 - Present</h5>
+            <ul>
+              <li class="list-items">
+                Implemented the complete user interface and managed the
+                integration of functions for API calls in NocoAI's web
+                application.
+              </li>
+              <li class="list-items">
+                Utilized Redux Toolkit with Typescript, resulting in a 30%
+                reduction in overall application state management complexity and
+                a 20% increase in processing speed.
+              </li>
+              <li class="list-items">
+                Effectively collaborated with UI/UX designers and back-end
+                developers to establish project specifications.
+              </li>
+              <li class="list-items">
+                Identified and resolved issues with front-end code ensuring bug
+                free performance and seamless querying of APIs.
+              </li>
+            </ul>
+
+            <div className="exp-category">
+              <strong>React Developer, ALGOTRADY</strong>
+            </div>
+            <h5 className="exp">December 2020 - February 2022</h5>
 
             <ul>
               <li class="list-items">
-                Creation of components using Storybook in order to make the
-                project consistent and easy to maintain.
+                Created reusable components using Storybook to improve project
+                consistency and maintenance.
               </li>
               <li class="list-items">
-                Contributed in implementing the frontend for major features of
-                the app including algorithmic trading, strategy development and
-                backtesting.
+                Implemented crucial features of the application including
+                algorithmic trading, strategy development, and backtesting while
+                skillfully managing state through Redux, leading to a
+                significant reduction of 5+ hours in users' time.
               </li>
               <li class="list-items">
-                Contributed to web based online portal codebase and UI Design
-                system using CSS, SASS and Styled components.
+                Collaborated with design, product management, and development
+                teams to create elegant, responsive, and interactive interfaces
+                across multiple devices.
               </li>
               <li class="list-items">
-                Worked on Frontend full stack set of JS technologies using ES6,
-                React, React Router, Redux, Thunk, Typescript in Agile/Scrum
-                based project.
-              </li>
-              <li class="list-items">
-                I was mainly responsible for creating and maintaining the
-                reusable components, implementing new features and React
-                routers.
-              </li>
-              <li class="list-items">
-                Worked closely with the design team, product management, and
-                development teams to create elegant, usable, responsive and
-                interactive interfaces across multiple devices.
+                Conducted thorough unit testing using Jest and Enzyme to ensure
+                the quality and stability of the applications, and fixed any
+                issues found during testing.
               </li>
             </ul>
 
             <div className="exp-category">
               <strong>Frontend Developer, FREELANCE</strong>
 
-              <h5>December 2019 - October 2021</h5>
+              <h5>December 2015 - October 2020</h5>
             </div>
             <ul>
               <li class="list-items">
-                Designed, developed, and delivered more than a dozen successful
-                website development and design projects for clients, normally
-                using HTML, CSS/SASS, React, and Firebase if needed.
+                Successfully designed, developed, and delivered 12 website
+                development and design projects using HTML, CSS/ SASS, React,
+                and Firebase (if needed) to meet clients' needs and
+                specifications.
               </li>
               <li class="list-items">
-                Coded HTML, CSS, and JavaScript for multiple businesses (form
-                submission validations, splash pages, responsive redesigns,
-                etc).
+                Designed, developed, and maintained WordPress-based websites and
+                blogs for 8 diverse clients, including small businesses,
+                non-profits, and individuals.
               </li>
               <li class="list-items">
-                Designed web applications according to client briefs and
-                modified designs to meet changes in client specifications.
+                Provided ongoing website maintenance and support to clients,
+                including updates to WordPress core, themes, and plugins, as
+                well as regular backups and security monitoring.
               </li>
             </ul>
-            <div className="exp-category">
-              <strong>Wordpress Developer, FREELANCE</strong>
 
-              <h5>December 2015 - September 2019</h5>
-            </div>
-            <ul>
-              <li class="list-items">
-                Developed dozens of custom websites for clients from small
-                businesses and online stores.
-              </li>
-              <li class="list-items">
-                Experience in the creation of, and issues surrounding,
-                responsive websites, mobile-first design and device-agnostic
-                development.
-              </li>
-              <li class="list-items">
-                Extensive experience with WordPress theme, plugins and widgets.
-              </li>
-              <li class="list-items">
-                Well versed in installing and configuring WordPress multisite
-                and delivered well-made projects on time.
-              </li>
-            </ul>
             <div className="exp-category">
               <strong>Research Assistant</strong>
               <h5>March 2014 - June 2015</h5>
@@ -188,6 +185,9 @@ const Right = () => {
           </div>
         </div>
       </div>
+      <center style={{ marginBottom: "5%", color: "#654ea3" }}>
+        -- Coded with ❤ by Rafiya Shahana using React --
+      </center>{" "}
     </div>
   );
 };
