@@ -43,9 +43,19 @@ a {
   position: absolute;
   padding: 5px;
 }
-.left .bg-img {
-  background: url("./img/stockphoto.jpg") center center no-repeat;
+.bg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   background-size: cover;
+  background-image: linear-gradient(to left top, #654ea3, #eaafc8);
+  /* background-image: linear-gradient(to left top, #b993d6, #8ca6db); */
+  opacity: 0.85;
+}
+.left .bg-img {
   height: 100%;
   width: 100%;
 }
@@ -57,10 +67,9 @@ a {
   right: 0;
   left: 0;
   height: 100%;
-
-  background-image: linear-gradient(to left top, #654ea3, #eaafc8);
-  /* background-image: linear-gradient(to left top, #b993d6, #8ca6db); */
-  opacity: 0.85;
+  clip-path: circle(35%);
+  background: url("./img/pp2.png") center center no-repeat;
+  background-size: contain;
 }
 
 .right-inner {

@@ -2,24 +2,26 @@ import React from "react";
 import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faInstagram,
   faGithub,
   faLinkedinIn,
+  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Left = () => {
   return (
     <div className="left">
-      <div className="bg-img"></div>
+      <div className="bg-img">
+        <div className="bg-container"></div>
+      </div>
       <div className="info">
         <h2>Hey, I'm Rafiya</h2>
         <h4>Frontend developer based in KSA</h4>
         <FontAwesomeIcon
-          icon={faInstagram}
+          icon={faReact}
           className="social"
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.instagram.com/herspicedlatte/", "_blank");
+            window.open("https://rafiyashahana.github.io/", "_blank");
           }}
         />
         <FontAwesomeIcon
