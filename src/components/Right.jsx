@@ -6,7 +6,7 @@ const Right = () => {
       <div className="right-inner">
         <h4>Intro</h4>
         <div className="content">
-          Passionate Front End developer with 3+ years of experience in creating
+          Passionate Front End developer with 4+ years of experience in creating
           SPA using React(JS/TS), Redux, HTML and CSS. Proficient in
           collaborative teamwork, version control, and performance optimization.
         </div>
